@@ -33,10 +33,6 @@ where I learned that a number without its uncertainty isn't finished.
 
 ## Weather and climate
 
-<img align="right" width="340"
-     src="https://raw.githubusercontent.com/meteoFurletov/noise-meteo-spb/main/docs/figures/phase_f_v2/fig1b_polar_seasonal_diurnal.png"
-     alt="Probability of favourable sound propagation by direction over Saint Petersburg, four season and time-of-day panels">
-
 Not my day job, but the problems are good and the data is messy in instructive ways. Kept as a
 portfolio.
 
@@ -50,8 +46,6 @@ portfolio.
 
 Current research: probabilistic post-processing of GEFS and AIFS ensemble forecasts over north-west
 Russia with the Met Office IMPROVER framework. Not public yet.
-
-<br clear="both">
 
 ## Stack
 
