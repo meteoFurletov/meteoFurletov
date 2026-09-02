@@ -29,19 +29,15 @@ where I learned that a number without its uncertainty isn't finished.
 
 Open projects for meteorologists. Code, data and write-ups are in the repos; take what is useful.
 
-- **[noise-meteo-spb](https://github.com/meteoFurletov/noise-meteo-spb)** — how often the atmosphere favours sound propagation over Saint Petersburg, by direction, season and time of day. ERA5, 2014–2024, validated against radiosondes. Ready to plug into noise calculations.
-- **[weather-sounding-tool](https://github.com/meteoFurletov/weather-sounding-tool)** — radiosonde data, easy to fetch and analyse.
-- **[lightning_classification](https://github.com/meteoFurletov/lightning_classification)** — lightning detection from Doppler radar with machine learning.
-- **[omsk-agriculture-microclimate](https://github.com/meteoFurletov/omsk-agriculture-microclimate)** — agrometeorological climatology of Omsk Oblast from ERA5, 1981–2024.
-
-In progress: probabilistic post-processing of GEFS and AIFS ensembles over north-west Russia with
-IMPROVER. Not public yet.
-
-Earlier:
-
-- **[Urban-Rural-Windscapes](https://github.com/meteoFurletov/Urban-Rural-Windscapes)** — urban versus rural wind regimes around Saint Petersburg: three stations, a full year, wind roses by season.
-- **[atmospheric_modeling](https://github.com/meteoFurletov/atmospheric_modeling)** — the NRLMSISE-00 atmosphere model checked against a year of Singapore radiosondes: pressure, temperature and wind by season.
-- **[climate_analysis](https://github.com/meteoFurletov/climate_analysis)** — station climate statistics with Meteostat: trends, anomalies, outlier screening, maps.
+| Project | What it is |
+|---|---|
+| [noise-meteo-spb](https://github.com/meteoFurletov/noise-meteo-spb) | How often the atmosphere favours sound propagation over Saint Petersburg, by direction, season and time of day. ERA5, 2014–2024, validated against radiosondes. Ready to plug into noise calculations. |
+| [weather-sounding-tool](https://github.com/meteoFurletov/weather-sounding-tool) | Radiosonde data, easy to fetch and analyse. |
+| [lightning_classification](https://github.com/meteoFurletov/lightning_classification) | Lightning detection from Doppler radar with machine learning. |
+| [omsk-agriculture-microclimate](https://github.com/meteoFurletov/omsk-agriculture-microclimate) | Agrometeorological climatology of Omsk Oblast from ERA5, 1981–2024. |
+| [Urban-Rural-Windscapes](https://github.com/meteoFurletov/Urban-Rural-Windscapes) | Urban versus rural wind regimes around Saint Petersburg: three stations, a full year, wind roses by season. |
+| [atmospheric_modeling](https://github.com/meteoFurletov/atmospheric_modeling) | The NRLMSISE-00 atmosphere model checked against a year of Singapore radiosondes: pressure, temperature and wind by season. |
+| [climate_analysis](https://github.com/meteoFurletov/climate_analysis) | Station climate statistics with Meteostat: trends, anomalies, outlier screening, maps. |
 
 ## Stack
 
