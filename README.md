@@ -31,13 +31,13 @@ Open projects for meteorologists. Code, data and write-ups are in the repos; tak
 
 | Project | What it is |
 |---|---|
-| [noise-meteo-spb](https://github.com/meteoFurletov/noise-meteo-spb) | How often the atmosphere favours sound propagation over Saint Petersburg, by direction, season and time of day. ERA5, 2014–2024, validated against radiosondes. Ready to plug into noise calculations. |
+| [noise-meteo-spb](https://github.com/meteoFurletov/noise-meteo-spb) | Sound-propagation climatology of Saint Petersburg from ERA5, by direction and season. |
 | [weather-sounding-tool](https://github.com/meteoFurletov/weather-sounding-tool) | Radiosonde data, easy to fetch and analyse. |
 | [lightning_classification](https://github.com/meteoFurletov/lightning_classification) | Lightning detection from Doppler radar with machine learning. |
 | [omsk-agriculture-microclimate](https://github.com/meteoFurletov/omsk-agriculture-microclimate) | Agrometeorological climatology of Omsk Oblast from ERA5, 1981–2024. |
-| [Urban-Rural-Windscapes](https://github.com/meteoFurletov/Urban-Rural-Windscapes) | Urban versus rural wind regimes around Saint Petersburg: three stations, a full year, wind roses by season. |
-| [atmospheric_modeling](https://github.com/meteoFurletov/atmospheric_modeling) | The NRLMSISE-00 atmosphere model checked against a year of Singapore radiosondes: pressure, temperature and wind by season. |
-| [climate_analysis](https://github.com/meteoFurletov/climate_analysis) | Station climate statistics with Meteostat: trends, anomalies, outlier screening, maps. |
+| [Urban-Rural-Windscapes](https://github.com/meteoFurletov/Urban-Rural-Windscapes) | Urban versus rural wind regimes around Saint Petersburg, by season. |
+| [atmospheric_modeling](https://github.com/meteoFurletov/atmospheric_modeling) | NRLMSISE-00 atmosphere model checked against a year of radiosondes. |
+| [climate_analysis](https://github.com/meteoFurletov/climate_analysis) | Station climate statistics: trends, anomalies, outliers, maps. |
 
 ## Stack
 
