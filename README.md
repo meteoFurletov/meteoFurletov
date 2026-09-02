@@ -1,11 +1,15 @@
-# Nikita Furletov
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" width="100%"
+       alt="Nikita Furletov. Data engineer for open-source analytics infrastructure. Meteorologist by training.">
+</picture>
 
-**Data engineer for open-source analytics infrastructure. Meteorologist by training.**
-
-[![Website](https://img.shields.io/badge/meteofurletov.com-222222?logo=googlechrome&logoColor=white)](https://meteofurletov.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-meteofurletov-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meteofurletov)
-[![Email](https://img.shields.io/badge/Email-meteofurletov%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:meteofurletov@gmail.com)
-[![Skills](https://img.shields.io/badge/Agent%20skills-meteof--skills-6E56CF)](https://github.com/meteoFurletov/skills)
+<p align="center">
+  <a href="https://meteofurletov.com"><img alt="Website" src="https://img.shields.io/badge/meteofurletov.com-24292f?style=flat-square&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/meteofurletov"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRleHQgeD0iMTIiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZiI+aW48L3RleHQ+PC9zdmc+"></a>
+  <a href="mailto:meteofurletov@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/meteoFurletov/skills"><img alt="Agent skills" src="https://img.shields.io/badge/Agent%20skills-meteof--skills-6E56CF?style=flat-square&logo=anthropic&logoColor=white"></a>
+</p>
 
 I build analytics platforms on open source, ClickHouse, S3 and Parquet, SQLMesh, Airflow, and I like
 doing it from an empty repository. I dig into system internals and architectural trade-offs before
@@ -49,6 +53,23 @@ Russia with the Met Office IMPROVER framework. Not public yet.
 
 ## Stack
 
-ClickHouse · SQLMesh · Airflow · Python · Go · Terraform · Kubernetes · xarray · PyTorch
+<p>
+  <img alt="ClickHouse" src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black">
+  <img alt="SQLMesh" src="https://img.shields.io/badge/SQLMesh-1F2937?style=flat-square">
+  <img alt="Airflow" src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white">
+  <img alt="S3 and Parquet" src="https://img.shields.io/badge/S3%20%2B%20Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Terraform" src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white">
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+</p>
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=flat-square">
+  <img alt="xarray" src="https://img.shields.io/badge/xarray-1F5C99?style=flat-square">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white">
+</p>
 
 Saint Petersburg. I work in Russian and English.
