@@ -37,10 +37,11 @@ Open projects for meteorologists. Code, data and write-ups are in the repos; tak
 In progress: probabilistic post-processing of GEFS and AIFS ensembles over north-west Russia with
 IMPROVER. Not public yet.
 
-Coursework from 2023, kept for the record:
-[Urban-Rural-Windscapes](https://github.com/meteoFurletov/Urban-Rural-Windscapes),
-[atmospheric_modeling](https://github.com/meteoFurletov/atmospheric_modeling),
-[climate_analysis](https://github.com/meteoFurletov/climate_analysis).
+Earlier:
+
+- **[Urban-Rural-Windscapes](https://github.com/meteoFurletov/Urban-Rural-Windscapes)** — urban versus rural wind regimes around Saint Petersburg: three stations, a full year, wind roses by season.
+- **[atmospheric_modeling](https://github.com/meteoFurletov/atmospheric_modeling)** — the NRLMSISE-00 atmosphere model checked against a year of Singapore radiosondes: pressure, temperature and wind by season.
+- **[climate_analysis](https://github.com/meteoFurletov/climate_analysis)** — station climate statistics with Meteostat: trends, anomalies, outlier screening, maps.
 
 ## Stack
 
