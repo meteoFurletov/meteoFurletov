@@ -32,6 +32,7 @@ Open projects for meteorologists. Code, data and write-ups are in the repos; tak
 | Project | What it is |
 |---|---|
 | [noise-meteo-spb](https://github.com/meteoFurletov/noise-meteo-spb) | Sound-propagation climatology of Saint Petersburg from ERA5, by direction and season. |
+| [postgrad_intro_exams](https://github.com/meteoFurletov/postgrad_intro_exams) | Postgraduate exam notes on atmospheric physics and dynamics, as a [website](https://meteofurletov.github.io/postgrad_intro_exams/). |
 | [weather-sounding-tool](https://github.com/meteoFurletov/weather-sounding-tool) | Radiosonde data, easy to fetch and analyse. |
 | [lightning_classification](https://github.com/meteoFurletov/lightning_classification) | Lightning detection from Doppler radar with machine learning. |
 | [omsk-agriculture-microclimate](https://github.com/meteoFurletov/omsk-agriculture-microclimate) | Agrometeorological climatology of Omsk Oblast from ERA5, 1981–2024. |
