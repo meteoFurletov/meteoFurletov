@@ -39,8 +39,12 @@ Most of the code is written by Claude Code and Codex now. My job is deciding wha
 verifying it, and that only works when the process is explicit. So I packaged mine as a Claude Code
 plugin: [sdlc-loop](https://github.com/meteoFurletov/skills/tree/main/plugins/sdlc-loop), six stages
 — intent, spec, plan, build, review, watch — fixed in one place instead of re-derived in every repo.
-Slash commands for the stage transitions. Opt-in hooks for the rules that have to hold rather than
-be advised. Every artifact is plain markdown, Gherkin and YAML in the project's own git.
+
+The spec stage is BDD. Every behaviour becomes a Gherkin scenario in a `.feature` file, and that
+file is the contract the build is written against and reviewed against. A hook blocks edits to an
+existing scenario, so the target cannot move quietly to meet the code. Slash commands for the stage
+transitions, opt-in hooks for the rules that have to hold rather than be advised, and every artifact
+plain markdown, Gherkin and YAML in the project's own git.
 
 ## Weather and climate
 
