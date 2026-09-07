@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <img src="assets/banner-light.svg" width="100%"
-       alt="Nikita Furletov. Data engineer for open-source analytics infrastructure. Meteorologist by training.">
+       alt="Nikita Furletov. Data Platform Engineer. Analytics platforms on ClickHouse, S3 and Iceberg, SQLMesh, AWS.">
 </picture>
 
 <p align="center">
@@ -11,19 +11,27 @@
   <a href="https://github.com/meteoFurletov/skills"><img alt="Agent skills" src="https://img.shields.io/badge/Agent%20skills-meteof--skills-6E56CF?style=flat-square&logo=anthropic&logoColor=white"></a>
 </p>
 
-I build analytics platforms on open source, ClickHouse, S3 and Parquet, SQLMesh, Airflow, and I like
-doing it from an empty repository. I dig into system internals and architectural trade-offs before
-picking a tool, then own the result: pipelines, models, data quality, catalog, and the infrastructure
-code underneath.
+I build analytics platforms as systems, not as sets of pipelines. I choose the storage and the
+engine, put a transformation framework and quality gates on top, make the data discoverable, ship
+the whole thing as code, and put an AI interface on it so people get answers without a developer in
+the loop. A platform is trustworthy when nobody checks the number twice.
 
-By day that is an investment company's data platform and its internal AI infrastructure (open-source
-LLM serving, RAG, MCP servers for agents). On my own time it is a serverless lakehouse
-on Yandex Cloud that costs a few dollars a month and doubles as a testbed for ideas before they touch
-production. A platform is trustworthy when nobody checks the number twice.
+## Platform work
 
-My degrees are in atmospheric science, and postgraduate research keeps me in probabilistic
-forecasting. It is where I got comfortable with messy spatiotemporal data, ERA5, GRIB, ensembles, and
-where I learned that a number without its uncertainty isn't finished.
+One analytics platform for a bookstore chain, four iterations since 2023. It started as PostgreSQL
+with Airflow ETL in Docker on Yandex Cloud and DataLens dashboards. Then Airflow with SQLMesh
+models, four Postgres instances and Superset, a proper transformation layer running on an always-on
+VM far too big for the workload. Then a serverless, scale-to-zero lakehouse: Parquet on object
+storage, DuckDB for every transformation, YAML data contracts that validate each dataset and
+generate the catalog, atomic publish, all Terraform, at about 5× lower TCO than the VM it replaced.
+The fourth is an AWS twin of the same platform on S3, Spark on AWS Glue, Iceberg tables and Athena,
+with the Yandex Cloud original still running beside it. Finished in 2026. It runs unattended.
+
+At TKB Investment Partners I re-architected the company data platform on a hybrid S3 and ClickHouse
+medallion design, took it from one to two bad-data days a month to near-zero data-quality incidents
+with SQLMesh audits and tests, and deployed OpenMetadata as the company-wide catalog. I also own the
+internal AI infrastructure: Open WebUI over open-source LLMs, vLLM for inference with observability,
+and MCP interfaces going onto internal services with Hermes on top.
 
 ## Weather and climate
 
@@ -32,8 +40,8 @@ Open projects for meteorologists. Code, data and write-ups are in the repos; tak
 | Project | What it is |
 |---|---|
 | [noise-meteo-spb](https://github.com/meteoFurletov/noise-meteo-spb) | Sound-propagation climatology of Saint Petersburg from ERA5, by direction and season. |
-| [postgrad_intro_exams](https://github.com/meteoFurletov/postgrad_intro_exams) | Postgraduate exam notes on atmospheric physics and dynamics, as a [website](https://meteofurletov.github.io/postgrad_intro_exams/). |
-| [weather-sounding-tool](https://github.com/meteoFurletov/weather-sounding-tool) | Radiosonde data, easy to fetch and analyse. |
+| [postgrad_intro_exams](https://github.com/meteoFurletov/postgrad_intro_exams) | Exam notes on atmospheric physics and dynamics, as a [website](https://meteofurletov.github.io/postgrad_intro_exams/). |
+| [weather-sounding-tool](https://github.com/meteoFurletov/weather-sounding-tool) | Radiosonde data, easy to fetch and analyze. |
 | [lightning_classification](https://github.com/meteoFurletov/lightning_classification) | Lightning detection from Doppler radar with machine learning. |
 | [omsk-agriculture-microclimate](https://github.com/meteoFurletov/omsk-agriculture-microclimate) | Agrometeorological climatology of Omsk Oblast from ERA5, 1981–2024. |
 | [Urban-Rural-Windscapes](https://github.com/meteoFurletov/Urban-Rural-Windscapes) | Urban versus rural wind regimes around Saint Petersburg, by season. |
@@ -42,6 +50,6 @@ Open projects for meteorologists. Code, data and write-ups are in the repos; tak
 
 ## Stack
 
-ClickHouse · SQLMesh · Airflow · Terraform · Kubernetes · Atmospheric science
+ClickHouse · dbt / SQLMesh · Airflow · AWS · Terraform · Iceberg · DuckDB
 
-Digital nomad.
+Digital nomad, based in Georgia (UTC+4).
