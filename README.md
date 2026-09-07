@@ -29,7 +29,7 @@ with the Yandex Cloud original still running beside it. Finished in 2026. It run
 
 At TKB Investment Partners I re-architected the company data platform on a hybrid S3 and ClickHouse
 medallion design, took it from one to two bad-data days a month to near-zero data-quality incidents
-with SQLMesh audits and tests, and deployed OpenMetadata as the company-wide catalog. I also own the
+with SQLMesh audits and tests, where it has held for a year, and deployed OpenMetadata as the company-wide catalog. I also own the
 internal AI infrastructure: Open WebUI over open-source LLMs, vLLM for inference with observability,
 and MCP interfaces going onto internal services with Hermes on top.
 
@@ -40,7 +40,7 @@ verifying it, and that only works when the process is explicit. So I packaged mi
 plugin: [sdlc-loop](https://github.com/meteoFurletov/skills/tree/main/plugins/sdlc-loop), six stages
 — intent, spec, plan, build, review, watch — fixed in one place instead of re-derived in every repo.
 
-The spec stage is BDD. Every behaviour becomes a Gherkin scenario in a `.feature` file, and that
+The spec stage is BDD. Every behavior becomes a Gherkin scenario in a `.feature` file, and that
 file is the contract the build is written against and reviewed against. A hook blocks edits to an
 existing scenario, so the target cannot move quietly to meet the code. Slash commands for the stage
 transitions, opt-in hooks for the rules that have to hold rather than be advised, and every artifact
