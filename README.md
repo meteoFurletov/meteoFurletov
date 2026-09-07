@@ -33,6 +33,15 @@ with SQLMesh audits and tests, and deployed OpenMetadata as the company-wide cat
 internal AI infrastructure: Open WebUI over open-source LLMs, vLLM for inference with observability,
 and MCP interfaces going onto internal services with Hermes on top.
 
+## How I work
+
+Most of the code is written by Claude Code and Codex now. My job is deciding what is right and
+verifying it, and that only works when the process is explicit. So I packaged mine as a Claude Code
+plugin: [sdlc-loop](https://github.com/meteoFurletov/skills/tree/main/plugins/sdlc-loop), six stages
+— intent, spec, plan, build, review, watch — fixed in one place instead of re-derived in every repo.
+Slash commands for the stage transitions. Opt-in hooks for the rules that have to hold rather than
+be advised. Every artifact is plain markdown, Gherkin and YAML in the project's own git.
+
 ## Weather and climate
 
 Open projects for meteorologists. Code, data and write-ups are in the repos; take what is useful.
